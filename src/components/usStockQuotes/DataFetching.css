@@ -1,0 +1,117 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.input-wrapper {
+  background: lightblue;
+  display: inherit;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+.content-wrapper {
+  border: 1px solid rgba(220, 220, 220, 0.6);
+  background-color: rgba(0, 5, 10, 1);
+  display: inherit;
+  flex-direction: column;
+  margin: 2px 2px;
+}
+
+.price-wrapper {
+  border: 1px solid black;
+  display: inherit;
+  flex-direction: column;
+  align-items: center;
+  margin: 2px 2px;
+}
+
+.volume-wrapper {
+  border: 1px solid rgba(200, 200, 200, 0.2);
+  display: inherit;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 2px 2px;
+  padding: 0 6px;
+}
+.small-text {
+  font-size: 0.6em;
+  padding-right: 1em;
+}
+
+.change-wrapper {
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  display: inherit;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 2px 2px;
+}
+.change-inner-wrapper {
+  display: inherit;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.up {
+  background-color: green;
+  width: 80%;
+}
+.down {
+  background-color: red;
+  width: 80%;
+}
+
+.history-wrapper {
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  display: inherit;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 2px 2px;
+}
+.history-inner-wrapper {
+  display: inherit;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1em;
+  margin: 2px 2px;
+}
+
+input {
+  border: 5px solid white;
+  -webkit-box-shadow: inset 0 0 8px rgba(0, 5, 10, 1),
+    0 0 16px rgba(0, 5, 10, 1);
+  -moz-box-shadow: inset 0 0 8px rgba(0, 5, 10, 1), 0 0 16px rgba(0, 5, 10, 1);
+  box-shadow: inset 0 0 8px rgba(0, 5, 10, 1), 0 0 16px rgba(0, 5, 10, 1);
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.8);
+
+  margin: 0 0 2px 0;
+}
+::-webkit-input-placeholder {
+  text-align: center;
+  color: rgba(51, 51, 51, 0.4);
+}
+
+.headline-wrapper {
+  padding: 0 1em;
+}
+.headline-wrapper h5 {
+  text-decoration: underline;
+  padding-bottom: 0;
+  margin-bottom: 4px;
+}
+
+ul {
+  display: block;
+  list-style-type: none;
+  margin-block-start: 2px;
+  margin-block-end: 2px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 2px;
+  font-size: 0.8em;
+  font-weight: 100;
+}
